@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: From Rows to Results 
-email: xanbauer@gmail.com
+email:
 description: >- # this means to ignore newlines until "baseurl:"
   Data scientist and analyst delivering actionable insights through advanced analytics, machine learning, and data visualization. Transforming complex data into strategic business solutions.
 github_username: XanBauer
@@ -53,27 +53,34 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-seo-tag
+
+analytics:
+  provider               : "google-gtag"
+  google:
+    tracking_id          : "G-7LL28WJFTS"
+    anonymize_ip         : false
 
 author:
   name   : "Xan Bauer"
   avatar : "/assets/images/Bio-pic.jpeg"
-  bio    : "A data analyst specializing in database administration, data governance, and automated reporting solutions for the digital advertising industry. Leveraging expertise in Python, SQL, and API integrations while actively expanding capabilities in statistical modeling and machine learning to drive data-driven decision making"
+  bio    : "Data Analytics & Engineering | Driving Action and Solving Problems"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/XanBauer"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/papa_xan_man/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/xanbauer/"
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/XanBauer"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/papa_xan_man/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/xanbauer/"
 
 defaults:
   # _posts
