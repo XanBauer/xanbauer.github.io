@@ -56,7 +56,7 @@ plugins:
 
 author:
   name   : "Xan Bauer"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/Bio-pic.jpeg"
   bio    : "A data analyst specializing in database administration, data governance, and automated reporting solutions for the digital advertising industry. Leveraging expertise in Python, SQL, and API integrations while actively expanding capabilities in statistical modeling and machine learning to drive data-driven decision making"
   links:
     - label: "GitHub"
