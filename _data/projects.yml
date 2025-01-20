@@ -1,4 +1,5 @@
 - name: "Predicting Car Prices with k-Nearest Neighbors Regression"
   description: "Using kNN regression, we find that engine size, city mpg, horsepower, and curb weight are the best predictors for car prices."
-  github_link: "https://github.com/XanBauer/Predicting-Car-Prices/blob/main/Predicting%2BCar%2BPrices.ipynb"
+  github_link: "https://github.com/XanBauer/Predicting-Car-Prices"
+  notebook_file: "Predicting+Car+Prices.ipynb"
   tags: ["Python", "Machine Learning", "k-NearestNeighbors", "Data Visualization"]
