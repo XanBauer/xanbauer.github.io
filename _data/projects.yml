@@ -1,12 +1,16 @@
 - name: "Predicting Car Prices with k-Nearest Neighbors Regression"
-  description: "Using kNN regression, we find the features that are are the best predictors for car prices."
+  description: "Using kNN regression, we discover the best predictors for car prices."
   github_link: "https://github.com/XanBauer/Predicting-Car-Prices"
   notebook_file: "Predicting_Car_Prices_with_k-nearest_neighbors.ipynb"
+  thumbnail: "/assets/images/car-prices-thmbnl.png"
+  page_link: "projects/Predicting-Car-Prices/"
   tags: ["Python", "Machine Learning", "k-NearestNeighbors", "Data Visualization"]
 
-  - name: "Investigating Fandango's False Ratings"
-  description: "Using measures of central tendency, we look for evidence on whether Fandango inflated ratings for business gain."
-  github_link: "https://https://github.com/XanBauer/Fandango-Ratings"
+- name: "Investigating Fandango's False Ratings"
+  description: "Using measures of central tendency, we look for evidence on whether Fandango inflated movie ratings for business gain."
+  github_link: "https://github.com/XanBauer/Fandango-Ratings"
   notebook_file: "Investigating_Fandango_Movie_Ratings.ipynb"
+  page_link: "projects/fandango-fixing-ratings/"
+  thumbnail: "/assets/images/fandango-thmbnl.png"
   tags: ["Statistics", "Data Analysis", "Data Visualization"]
 
